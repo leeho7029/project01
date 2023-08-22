@@ -31,7 +31,7 @@
 .page_wrap { clear:both; width: 1200px; height: auto; margin:0 auto; }
 .page_tit { font-size:48px; text-align: center; padding-top:1.75em; }
 
-#page1 {background-color:#f1f2f1;height:unset;}
+#page1 {background-color:white;height:unset;}
 #page1 .page_tit {font-weight:600;}
 #page1 .page_tit .txtColor1 {color:var(--main-color);}
 #page1 .page_tit .txtColor2 {color:var(--sub-color);}
