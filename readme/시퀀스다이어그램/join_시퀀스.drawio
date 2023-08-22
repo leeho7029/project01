@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:56:02.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NOxHHfQCfxna3sGT9TAg" version="21.6.8" type="device">
+  <diagram name="페이지-1" id="ZOWHZwcKNg0S60KTEgLz">
+    <mxGraphModel dx="3695" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-1" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;join.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="829" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-2" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;joinpro.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1140" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-3" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;idcheck.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="940" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-4" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;idload.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="940" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-5" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;term.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="670" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-6" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;login.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1140" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-5" target="E_ubdN3pdev0Xor_BB4M-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="900" as="sourcePoint" />
+            <mxPoint x="220" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;약관에 모두 동의하면 회원가입 페이지로 이동한다&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-1" target="E_ubdN3pdev0Xor_BB4M-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="960" as="sourcePoint" />
+            <mxPoint x="120" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-3" target="E_ubdN3pdev0Xor_BB4M-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="1310" as="sourcePoint" />
+            <mxPoint x="870" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="E_ubdN3pdev0Xor_BB4M-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="970" as="sourcePoint" />
+            <mxPoint x="280" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-12" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;아이디 입력칸을 누르면 아이디 입력 팝업이 뜨고 아이디 글자수검사한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="920" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;글자수를 통과한 아이디는 idload에 전달된다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="693" y="880" width="230" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;전달된 아이디가 중복되는지 결과를 알려준다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1010" width="95" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;전달된 아이디가 DB와 중복되는지 검사하고&lt;br&gt;검사에 통과한 아이디는 DB에 등록된다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1096.5" y="1000" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.336;exitY=0.926;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.376;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1091.1200000000001" y="1000" as="sourcePoint" />
+            <mxPoint x="1089.9999999999998" y="1072.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-18" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;Member DB&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1050" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1025" y="1060" as="sourcePoint" />
+            <mxPoint x="1025" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.018;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-2" target="E_ubdN3pdev0Xor_BB4M-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="1040" as="sourcePoint" />
+            <mxPoint x="700" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;정상처리되면 입력된 데이터를 DB에 저장한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503.5" y="1110" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;회원가입 완료를 누르면 입력된 데이터를 joinpro에 전달한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1050" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-23" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;취소하기를 누르면 메인페이지로 이동한다&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1090" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-2" target="E_ubdN3pdev0Xor_BB4M-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1030" as="sourcePoint" />
+            <mxPoint x="180" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_ubdN3pdev0Xor_BB4M-2" target="E_ubdN3pdev0Xor_BB4M-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="1030" as="sourcePoint" />
+            <mxPoint x="80" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;회원가입에 오류가 생기면 다시 회원가입 폼 페이지로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="990" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="E_ubdN3pdev0Xor_BB4M-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;회원가입이 정상적으로 완료되면 로그인 페이지로 이동한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1180" width="200" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

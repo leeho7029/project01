@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.contents {clear:both;min-height:60vh;margin-bottom:70px;}
+.contents::after { content:""; clear:both; display:block; width:100%; }
+
+#contents .sub {background-image:url("../image/sub/vgsub.jpg");background-repeat: no-repeat; background-size:cover;height:270px;}
+#contents .sub > h2 {font-size:35px;font-weight:500;text-align:center;color:black;line-height:270px;}
+.breadcrumb { clear:both;width:1200px; margin: 0 auto; text-align: right; color:#333;padding-top: 27px;padding-bottom: 27px;}
+.breadcrumb a { color:#333; }
+
+.page { clear:both;width:100vw;position:relative; }
+.page::after { content:""; display:block; width: 100%; clear:both; }
+
+.page_wrap { clear:both; width: 1200px; height: auto; margin:0 auto; }
+.page_tit { font-size:48px; text-align: center; padding-top:1em;padding-bottom:1.5em; }
+
+.page_wrap > section {margin-bottom:50px;}
+.page_wrap h3 {font-size: 25px;font-weight: 500;position: relative;padding-left:10px;margin-bottom:10px;}
+.page_wrap h3:before {content:"";display:block;width:5px;height:5px;border-radius:2px;background-color:var(--main-color);position:absolute;left:0;top:50%;margin-top:-2.5px}
+.page_wrap h4 {font-size:18px;line-height:1.8;font-weight:400;position:relative;padding-left:15px;}
+.page_wrap h4:before {position:absolute;content:"";display:block;width:12px;height:12px;border:3px solid var(--main-color);border-radius:50%;left:0;top:50%;margin-top:-6px;box-sizing:border-box;}
+
+/* 이메일 무단 수집 거부 */
+.privacyArea > div {margin-top:50px;}
+
+/* 공지사항 & 자유게시판 - 상세페이지 */
+.board_detail {width:100%;border-top:3px solid #333;box-sizing:border-box;border-bottom:1px solid #666;}
+.board_detail_top {background-color:rgba(6, 6, 6, 0.05);padding:5px;}
+.board_detail_top > div {position:relative;padding-left:5px;}
+.board_detail_top .cnt, .board_detail_top .date {position:absolute;top:1px;right:5px;}
+.board_detail_top .detail_top1 {border-bottom:2px solid darkgrey;height:50px;}
+.board_detail_top .board_title {font-size:25px;font-weight:600;line-height:42px;width:calc(100% - 150px);display:block;}
+.board_detail_top .cnt {font-size:20px;top:10px;}
+.board_detail_top .writer {font-size:20px;margin:5px 0 0;width:calc(100% - 200px);display:block;}
+.board_detail_con {margin:20px 0;padding:0 10px;font-size:20px;line-height: 1.2;}
+
+/* 자유게시판 댓글 관련 */
+.dat_area {width:100%;margin-top:50px;}
+.dat_list > li {border-bottom:1px solid #333;box-sizing:border-box}
+.dat_list > li:first-child {border-top:1px solid #333;}
+.dat_list > li > div {position:relative;}
+.dat_list .dat_top {padding:5px 10px;height: 25px;}
+.dat_list .dat_writer {font-weight:500;font-size:14px;line-height:25px;}
+.dat_list .dat_date {font-weight:300;padding-left:20px;}
+.dat_list .dat_btn {position:absolute;right:10px;top:50%;padding:0 10px;height:30px;line-height:28px;}
+.dat_list .dat_con {padding:5px 10px;min-height:25px;width:calc(100% - 150px);}
+.dat_add {width:100%;position:relative;margin-top:50px;padding:5px 10px;box-sizing:border-box;}
+.dat_add textarea {width:calc(100% - 280px);min-height:50px;}
+.dat_add .dat_btn {width:250px;text-align:center;position:absolute;right:10px;top:5px;height:52px;line-height:52px;font-size:18px;font-weight:500;}
+.dat_area .dat_btn {display:block;border:1px solid #333;border-radius:5px;background-color:#fff;box-sizing:border-box;cursor:pointer;}
+.dat_area .dat_btn:hover, .dat_area .dat_btn:active {background-color:var(--main-color);color:#fff;}
+
+
+#myTable_length, #dataTables_filter { margin-top:20px; margin-bottom:20px; }
+
+/* 디자인 가이드*/
+.pointColor {display:inline-block;width:200px;height:50px;}
+.pointColor1 {background-color:var(--main-color);}
+.pointColor2 {background-color:var(--sub-color);}
+.pointColor3 {background-color:var(--third-color);}
+.sampleHr {margin:50px 0;}

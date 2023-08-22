@@ -1,0 +1,229 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:56:39.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ysBLt8PYHyS5tQnLGVMq" version="21.6.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="4014" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="nlYcj-_ws6mtxJftO6y--1" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Booklit.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="470" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--2" value="&lt;span style=&quot;font-size: 28px;&quot;&gt;getBook.jsp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--3" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;qnaList&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="690" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--4" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;updateBook.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--5" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;addBook.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="690" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--7" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;Book DB&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1620" y="190" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--2" target="nlYcj-_ws6mtxJftO6y--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="nlYcj-_ws6mtxJftO6y--51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="210" as="sourcePoint" />
+            <mxPoint x="1150" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--51" target="nlYcj-_ws6mtxJftO6y--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="620" as="sourcePoint" />
+            <mxPoint x="220" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--1" target="nlYcj-_ws6mtxJftO6y--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1100" as="sourcePoint" />
+            <mxPoint x="120" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.6;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--5" target="nlYcj-_ws6mtxJftO6y--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1110" as="sourcePoint" />
+            <mxPoint x="130" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.633;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--59" target="nlYcj-_ws6mtxJftO6y--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="70" as="sourcePoint" />
+            <mxPoint x="1060" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.957;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.953;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--59" target="nlYcj-_ws6mtxJftO6y--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="80" as="sourcePoint" />
+            <mxPoint x="1580" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.457;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.457;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--51" target="nlYcj-_ws6mtxJftO6y--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="330" as="sourcePoint" />
+            <mxPoint x="1280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.537;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--1" target="nlYcj-_ws6mtxJftO6y--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="750" as="sourcePoint" />
+            <mxPoint x="350" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--39" value="데이터 추가가 정상처리되면 DB에 데이터를 저장한다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-130" y="810" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;추가를 누르면 폼에 입력된 데이터를 전달한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="790" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;관리자계정으로 로그인시 도서 데이터를 추가할 수 있는 버튼이 보인다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="630" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;문의하기를 클릭하면 문의게시판으로 이동한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--43" value="수정이 정상처리되면 목록 화면으로 이동한다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="20" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;폼에 입력한 데이터를 전달한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1310" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--45" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;정상처리가 되지 않으면 수정화면으로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1450" y="105" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--46" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;삭제가 정상적으로 이루어지지 않으면 수정페이지로 이동한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1310" y="265" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--47" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;삭제가 정상적으로 이루어지면 도서 목록페이지로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1076" y="480" width="324" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--48" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;관리자 계정으로 로그인시 수정버튼과 삭제버튼이 보이고 클릭시 이동가능하다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="105" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;글 목록을 클릭하면 도서 목록페이지로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;이미지를 클릭하면 도서 상세보기 페이지로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="320" width="223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--51" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;delBook.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="350" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="nlYcj-_ws6mtxJftO6y--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="210" as="sourcePoint" />
+            <mxPoint x="1110" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--59" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;updateBookpro.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="30" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="nlYcj-_ws6mtxJftO6y--59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1310" y="180" as="sourcePoint" />
+            <mxPoint x="1360" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.84;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--1" target="nlYcj-_ws6mtxJftO6y--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="590" as="sourcePoint" />
+            <mxPoint x="980" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="762" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--59" target="nlYcj-_ws6mtxJftO6y--7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="210" as="sourcePoint" />
+            <mxPoint x="1510" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1730" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.177;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--51" target="nlYcj-_ws6mtxJftO6y--7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="370" as="sourcePoint" />
+            <mxPoint x="1420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;정상 처리시 데이터를 수정한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1720" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;정상처리시 데이터를 삭제한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1480" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--68" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;Book DB&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-250" y="420" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--69" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;addBookpro.jsp&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="860" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.47;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--5" target="nlYcj-_ws6mtxJftO6y--69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="890" as="sourcePoint" />
+            <mxPoint x="440" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--69" target="nlYcj-_ws6mtxJftO6y--68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="820" as="sourcePoint" />
+            <mxPoint x="360" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--1" target="nlYcj-_ws6mtxJftO6y--68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="550" as="sourcePoint" />
+            <mxPoint x="350" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DB에 연결해서 book 목록을 요청한다&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nlYcj-_ws6mtxJftO6y--68" target="nlYcj-_ws6mtxJftO6y--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <mxPoint x="350" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--82" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;요청한 데이터를 전송한다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYcj-_ws6mtxJftO6y--83" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;취소를 누르면 도서목록페이지로 이동한다.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="515" y="740" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

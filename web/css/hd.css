@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* 헤더 영역 스타일 */
+.hd {clear:both;position:fixed;width:100%;height:90px;left:0;top:0;right:0;z-index:999;background-color:#fff;border-bottom: 1px solid #333;box-sizing:border-box;}
+.hd:hover {background-color:#fff;}
+.hd_wrap {clear:both;width:1200px;margin:0 auto;}
+.hd_wrap.hoverMenu:before {content:"";display:block;width:100%;height:122px;background-color:rgba(255, 255, 255, 0.7);position:absolute;left:0;top:90px;}
+
+.tnb {float:right;}
+.tnb .menu {height:50px;line-height:50px;margin-top:20px;}
+.tnb .menu li {float:left;margin-left:40px;}
+.tnb .menu li a {font-size:0.85em;font-weight:200;position:relative;}
+.tnb .menu li:hover a:after {position:absolute;content:"";display:block;width:110%;left:-5%;height:2px;bottom:-2px;background-color:var(--main-color);}
+
+.logo {display:block;width:auto;height:50px;float:left;margin-top:20px;}
+.logo img {display:block;width:auto;height:50px;}
+
+.gnb {width:600px;height:90px;position:absolute;top:0;left:50%;margin-left:-300px;}
+.gnb .menu {clear:both;height:90px;}
+.gnb .menu::after {content:"";clear:both;display:block;width:100%;}
+.gnb .menu li {float:left;width:25%;position:relative;}
+.gnb .menu li .sub {display:none;visibility:hidden;opacity:0;position:absolute;z-index:999;width:100%;top:90px;transition:0.3s;}
+.gnb .menu li a.dp1 {display:block;line-height:89px;text-align:center;color:#333;box-sizing:border-box;}
+.gnb .menu li:hover a.dp1 {background-color:var(--main-color);color:#fff;border-bottom:1px solid #333;}
+.gnb:hover .menu li .sub {visibility:visible;display:block;height:120px;opacity:1;}
+.gnb .menu li .sub li {padding-left:0;line-height:40px;clear:both;float:none;width:100%;z-index:990;box-sizing:border-box;height:40px;}
+.gnb .menu li .sub li a {display:block;text-align:center;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:100%;padding:0 10%;box-sizing:border-box}
+.gnb .menu li .sub li:hover a {border-bottom:2px solid var(--main-color);}
+
+/* 상단 header 고정으로 여백 수정 */
+.contents {margin-top:90px;}
